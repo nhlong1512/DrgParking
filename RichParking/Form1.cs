@@ -56,6 +56,7 @@ namespace RichParking
             uC_AddCar1.Visible = false;
             uC_Invoices1.Visible = false;
             uC_Statistics1.Visible = true;
+            uC_Statistics1.ShowChartRevenue();
         }
     }
 }

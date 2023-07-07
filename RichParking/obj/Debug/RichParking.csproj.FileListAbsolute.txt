@@ -27,3 +27,12 @@ D:\VS\RichParking\RichParking\RichParking\obj\Debug\RichParking.pdb
 D:\VS\RichParking\RichParking\RichParking\obj\Debug\RichParking.InvoicePrint.resources
 D:\VS\RichParking\RichParking\RichParking\obj\Debug\RdlCompile.cache
 D:\VS\RichParking\RichParking\RichParking\obj\Debug\RdlCompile.compiled
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.dll
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.WinForms.dll
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.Wpf.dll
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.pdb
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.xml
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.WinForms.pdb
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.WinForms.xml
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.Wpf.pdb
+D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.Wpf.xml

@@ -30,9 +30,9 @@ namespace RichParking.UserControls
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_AddCar));
             this.btnCarOut = new Guna.UI.WinForms.GunaButton();
             this.btnAddCar = new Guna.UI.WinForms.GunaButton();
@@ -67,7 +67,7 @@ namespace RichParking.UserControls
             this.btnCarOut.ForeColor = System.Drawing.Color.White;
             this.btnCarOut.Image = null;
             this.btnCarOut.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnCarOut.Location = new System.Drawing.Point(854, 353);
+            this.btnCarOut.Location = new System.Drawing.Point(844, 353);
             this.btnCarOut.Name = "btnCarOut";
             this.btnCarOut.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(255)))));
             this.btnCarOut.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -95,7 +95,7 @@ namespace RichParking.UserControls
             this.btnAddCar.ForeColor = System.Drawing.Color.White;
             this.btnAddCar.Image = null;
             this.btnAddCar.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnAddCar.Location = new System.Drawing.Point(854, 289);
+            this.btnAddCar.Location = new System.Drawing.Point(844, 289);
             this.btnAddCar.Name = "btnAddCar";
             this.btnAddCar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(255)))));
             this.btnAddCar.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -112,11 +112,11 @@ namespace RichParking.UserControls
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label4.Location = new System.Drawing.Point(710, 223);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 23);
+            this.label4.Size = new System.Drawing.Size(86, 23);
             this.label4.TabIndex = 45;
             this.label4.Text = "Services";
             // 
@@ -126,10 +126,10 @@ namespace RichParking.UserControls
             this.ckBoxOilChange.CheckedOffColor = System.Drawing.Color.Gray;
             this.ckBoxOilChange.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.ckBoxOilChange.FillColor = System.Drawing.Color.White;
-            this.ckBoxOilChange.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.ckBoxOilChange.Location = new System.Drawing.Point(997, 221);
+            this.ckBoxOilChange.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
+            this.ckBoxOilChange.Location = new System.Drawing.Point(991, 221);
             this.ckBoxOilChange.Name = "ckBoxOilChange";
-            this.ckBoxOilChange.Size = new System.Drawing.Size(203, 29);
+            this.ckBoxOilChange.Size = new System.Drawing.Size(192, 27);
             this.ckBoxOilChange.TabIndex = 44;
             this.ckBoxOilChange.Text = "Change Oil (50$)";
             // 
@@ -139,10 +139,10 @@ namespace RichParking.UserControls
             this.ckBoxWash.CheckedOffColor = System.Drawing.Color.Gray;
             this.ckBoxWash.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.ckBoxWash.FillColor = System.Drawing.Color.White;
-            this.ckBoxWash.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.ckBoxWash.Location = new System.Drawing.Point(859, 221);
+            this.ckBoxWash.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
+            this.ckBoxWash.Location = new System.Drawing.Point(819, 221);
             this.ckBoxWash.Name = "ckBoxWash";
-            this.ckBoxWash.Size = new System.Drawing.Size(142, 29);
+            this.ckBoxWash.Size = new System.Drawing.Size(154, 27);
             this.ckBoxWash.TabIndex = 43;
             this.ckBoxWash.Text = "Wash (10$)";
             // 
@@ -152,8 +152,8 @@ namespace RichParking.UserControls
             this.rbtnVan.CheckedOffColor = System.Drawing.Color.Gray;
             this.rbtnVan.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.rbtnVan.FillColor = System.Drawing.Color.White;
-            this.rbtnVan.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.rbtnVan.Location = new System.Drawing.Point(1098, 168);
+            this.rbtnVan.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
+            this.rbtnVan.Location = new System.Drawing.Point(1090, 171);
             this.rbtnVan.Name = "rbtnVan";
             this.rbtnVan.Size = new System.Drawing.Size(85, 29);
             this.rbtnVan.TabIndex = 42;
@@ -165,10 +165,10 @@ namespace RichParking.UserControls
             this.rbtnCar7.CheckedOffColor = System.Drawing.Color.Gray;
             this.rbtnCar7.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.rbtnCar7.FillColor = System.Drawing.Color.White;
-            this.rbtnCar7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.rbtnCar7.Location = new System.Drawing.Point(937, 172);
+            this.rbtnCar7.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
+            this.rbtnCar7.Location = new System.Drawing.Point(915, 172);
             this.rbtnCar7.Name = "rbtnCar7";
-            this.rbtnCar7.Size = new System.Drawing.Size(155, 29);
+            this.rbtnCar7.Size = new System.Drawing.Size(160, 27);
             this.rbtnCar7.TabIndex = 41;
             this.rbtnCar7.Text = "7 Seater Car";
             // 
@@ -178,8 +178,8 @@ namespace RichParking.UserControls
             this.rbtnCar.CheckedOffColor = System.Drawing.Color.Gray;
             this.rbtnCar.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.rbtnCar.FillColor = System.Drawing.Color.White;
-            this.rbtnCar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.rbtnCar.Location = new System.Drawing.Point(862, 172);
+            this.rbtnCar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold);
+            this.rbtnCar.Location = new System.Drawing.Point(825, 172);
             this.rbtnCar.Name = "rbtnCar";
             this.rbtnCar.Size = new System.Drawing.Size(69, 29);
             this.rbtnCar.TabIndex = 40;
@@ -188,11 +188,11 @@ namespace RichParking.UserControls
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Location = new System.Drawing.Point(710, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 23);
+            this.label3.Size = new System.Drawing.Size(93, 23);
             this.label3.TabIndex = 39;
             this.label3.Text = "Car Type";
             // 
@@ -208,10 +208,11 @@ namespace RichParking.UserControls
             this.inputLicensePlate.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.inputLicensePlate.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.inputLicensePlate.FocusedState.Parent = this.inputLicensePlate;
+            this.inputLicensePlate.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.inputLicensePlate.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.inputLicensePlate.HoverState.Parent = this.inputLicensePlate;
             this.inputLicensePlate.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.inputLicensePlate.Location = new System.Drawing.Point(854, 108);
+            this.inputLicensePlate.Location = new System.Drawing.Point(844, 108);
             this.inputLicensePlate.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.inputLicensePlate.Name = "inputLicensePlate";
             this.inputLicensePlate.PasswordChar = '\0';
@@ -223,30 +224,30 @@ namespace RichParking.UserControls
             // 
             // dtgvCar
             // 
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
-            this.dtgvCar.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dtgvCar.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgvCar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvCar.BackgroundColor = System.Drawing.Color.White;
             this.dtgvCar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvCar.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dtgvCar.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvCar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvCar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dtgvCar.ColumnHeadersHeight = 30;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvCar.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvCar.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvCar.EnableHeadersVisualStyles = false;
             this.dtgvCar.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtgvCar.Location = new System.Drawing.Point(8, 113);
@@ -284,22 +285,22 @@ namespace RichParking.UserControls
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(482, 13);
+            this.label2.Location = new System.Drawing.Point(448, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(325, 32);
+            this.label2.Size = new System.Drawing.Size(359, 37);
             this.label2.TabIndex = 36;
             this.label2.Text = "Car Parking Information";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(710, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 23);
+            this.label1.Size = new System.Drawing.Size(130, 23);
             this.label1.TabIndex = 34;
             this.label1.Text = "License Plate";
             // 
@@ -328,6 +329,7 @@ namespace RichParking.UserControls
             this.inputSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.inputSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.inputSearch.FocusedState.Parent = this.inputSearch;
+            this.inputSearch.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.inputSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.inputSearch.HoverState.Parent = this.inputSearch;
             this.inputSearch.IconLeft = ((System.Drawing.Image)(resources.GetObject("inputSearch.IconLeft")));

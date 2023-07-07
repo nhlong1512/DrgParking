@@ -44,6 +44,7 @@ namespace RichParking.UserControls
             this.dtgvInvoice = new Guna.UI.WinForms.GunaDataGridView();
             this.btnLoadData = new Guna.UI.WinForms.GunaButton();
             this.btnPrintInvoice = new Guna.UI.WinForms.GunaButton();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvInvoice)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +69,7 @@ namespace RichParking.UserControls
             this.gunaDateTimePicker1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.gunaDateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
             this.gunaDateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker1.Location = new System.Drawing.Point(120, 27);
+            this.gunaDateTimePicker1.Location = new System.Drawing.Point(111, 75);
             this.gunaDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.gunaDateTimePicker1.Name = "gunaDateTimePicker1";
@@ -94,11 +95,12 @@ namespace RichParking.UserControls
             this.inputSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.inputSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.inputSearch.FocusedState.Parent = this.inputSearch;
+            this.inputSearch.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.inputSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.inputSearch.HoverState.Parent = this.inputSearch;
             this.inputSearch.IconLeft = ((System.Drawing.Image)(resources.GetObject("inputSearch.IconLeft")));
             this.inputSearch.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.inputSearch.Location = new System.Drawing.Point(54, 74);
+            this.inputSearch.Location = new System.Drawing.Point(45, 122);
             this.inputSearch.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.inputSearch.Name = "inputSearch";
             this.inputSearch.PasswordChar = '\0';
@@ -114,7 +116,7 @@ namespace RichParking.UserControls
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(50, 34);
+            this.label1.Location = new System.Drawing.Point(41, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 23);
             this.label1.TabIndex = 37;
@@ -125,7 +127,7 @@ namespace RichParking.UserControls
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(384, 34);
+            this.label2.Location = new System.Drawing.Point(375, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 23);
             this.label2.TabIndex = 39;
@@ -141,7 +143,7 @@ namespace RichParking.UserControls
             this.gunaDateTimePicker2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.gunaDateTimePicker2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
             this.gunaDateTimePicker2.ForeColor = System.Drawing.Color.Black;
-            this.gunaDateTimePicker2.Location = new System.Drawing.Point(427, 27);
+            this.gunaDateTimePicker2.Location = new System.Drawing.Point(418, 75);
             this.gunaDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.gunaDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.gunaDateTimePicker2.Name = "gunaDateTimePicker2";
@@ -184,7 +186,7 @@ namespace RichParking.UserControls
             this.dtgvInvoice.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvInvoice.EnableHeadersVisualStyles = false;
             this.dtgvInvoice.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvInvoice.Location = new System.Drawing.Point(54, 134);
+            this.dtgvInvoice.Location = new System.Drawing.Point(45, 182);
             this.dtgvInvoice.Name = "dtgvInvoice";
             this.dtgvInvoice.RowHeadersVisible = false;
             this.dtgvInvoice.RowHeadersWidth = 51;
@@ -229,7 +231,7 @@ namespace RichParking.UserControls
             this.btnLoadData.ForeColor = System.Drawing.Color.White;
             this.btnLoadData.Image = null;
             this.btnLoadData.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnLoadData.Location = new System.Drawing.Point(481, 80);
+            this.btnLoadData.Location = new System.Drawing.Point(472, 128);
             this.btnLoadData.Name = "btnLoadData";
             this.btnLoadData.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(255)))));
             this.btnLoadData.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -256,7 +258,7 @@ namespace RichParking.UserControls
             this.btnPrintInvoice.ForeColor = System.Drawing.Color.White;
             this.btnPrintInvoice.Image = null;
             this.btnPrintInvoice.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnPrintInvoice.Location = new System.Drawing.Point(930, 134);
+            this.btnPrintInvoice.Location = new System.Drawing.Point(921, 182);
             this.btnPrintInvoice.Name = "btnPrintInvoice";
             this.btnPrintInvoice.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(255)))));
             this.btnPrintInvoice.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -270,11 +272,23 @@ namespace RichParking.UserControls
             this.btnPrintInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnPrintInvoice.Click += new System.EventHandler(this.btnPrintInvoice_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label3.Location = new System.Drawing.Point(542, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(137, 37);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "Invoices";
+            // 
             // UC_Invoices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnPrintInvoice);
             this.Controls.Add(this.btnLoadData);
             this.Controls.Add(this.dtgvInvoice);
@@ -302,5 +316,6 @@ namespace RichParking.UserControls
         private Guna.UI.WinForms.GunaDataGridView dtgvInvoice;
         private Guna.UI.WinForms.GunaButton btnLoadData;
         private Guna.UI.WinForms.GunaButton btnPrintInvoice;
+        private System.Windows.Forms.Label label3;
     }
 }

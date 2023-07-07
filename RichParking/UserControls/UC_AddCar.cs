@@ -75,6 +75,7 @@ namespace RichParking.UserControls
                     LicensePlate = inputLicensePlate.Text,
                     InTime = DateTime.Now,
                     IsDeleted = false,
+                    CreatedDate = DateTime.Now,
                 });
                 db.SaveChanges();
             }
@@ -134,7 +135,9 @@ namespace RichParking.UserControls
                     InvoiceID = id.ToString(),
                     Price = price,
                     CarID = carId,
-                    IsDeleted = false
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+
                 });
                 db.SaveChanges();
 
