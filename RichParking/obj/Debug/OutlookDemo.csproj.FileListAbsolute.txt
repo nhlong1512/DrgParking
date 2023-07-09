@@ -1,0 +1,14 @@
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\bin\Debug\OutlookDemo.exe.config
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\bin\Debug\OutlookDemo.exe
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\bin\Debug\OutlookDemo.pdb
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\bin\Debug\Guna.UI2.dll
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.Form1.resources
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.Properties.Resources.resources
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.csproj.GenerateResource.cache
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.csproj.CoreCompileInputs.cache
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.csproj.CopyComplete
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.exe
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.pdb
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.UserControls.UC_Chat.resources
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.UserControls.UC_Inbox.resources
+C:\Users\pLoTo\source\repos\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.csprojAssemblyReference.cache
