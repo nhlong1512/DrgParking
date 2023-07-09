@@ -115,8 +115,8 @@ namespace RichParking.UserControls
             sers.Add(new PieSeries() { Title = "7 Seater Car", Values = new ChartValues<int> { qtyCar7Seater }, DataLabels = true, LabelPoint = labelPoint });
             sers.Add(new PieSeries() { Title = "Truck", Values = new ChartValues<int> { qtyTruck }, DataLabels = true, LabelPoint = labelPoint });
             QtyCarTypeChart.Series = sers;
-            QtyCarTypeChart.Width = 360;
-            QtyCarTypeChart.Height = 360;
+            QtyCarTypeChart.Width = 440;
+            QtyCarTypeChart.Height = 440;
             txtRevenue.Visible = false;
             txtQtyType.Visible = true;
             revenueChart.Visible = false;

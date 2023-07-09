@@ -129,7 +129,7 @@ namespace RichParking.UserControls
             // 
             // QtyCarTypeChart
             // 
-            this.QtyCarTypeChart.Location = new System.Drawing.Point(627, 204);
+            this.QtyCarTypeChart.Location = new System.Drawing.Point(624, 164);
             this.QtyCarTypeChart.Name = "QtyCarTypeChart";
             this.QtyCarTypeChart.Size = new System.Drawing.Size(468, 313);
             this.QtyCarTypeChart.TabIndex = 54;

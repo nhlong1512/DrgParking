@@ -36,3 +36,4 @@ D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.WinForms.pdb
 D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.WinForms.xml
 D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.Wpf.pdb
 D:\VS\RichParking\RichParking\RichParking\bin\Debug\LiveCharts.Wpf.xml
+D:\VS\RichParking\RichParking\RichParking\obj\Debug\RichParking.csproj.AssemblyReference.cache
